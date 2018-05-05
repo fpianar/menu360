@@ -715,9 +715,6 @@ if(Scheda::isMobileDev()){?>
 </div></div></div>
 	
 </div>     
-
-
-
  
 </main><!-- #main -->
 	</div><!-- #primary -->
@@ -729,7 +726,6 @@ jQuery(document).ready(function(){
     })
 	jQuery('.carousel-inner .thumbnail').on("click",function(){
 		jQuery('#portata').val(jQuery(this).data("id"));
-		alert(jQuery('#portata').val());
 		jQuery('#cerca').submit();
 	})
 	jQuery('.wp_autosearch_input').attr('placeholder','NOME o NUMERO del locale')
